@@ -1,4 +1,4 @@
-# multipmd
+# MultiPMD
 Multiple-path-metadynamics (MultiPMD) and PathMaps.
 
 1. MultiPMD applied to sample two C7eq-to-C7ax paths in alanine dipeptide
