@@ -1,6 +1,6 @@
 # Multiple-path-metadynamics (MultiPMD) and PathMaps.
 
-MultiPMD is path-based enhanced sampling technique in which multiple walkers are used to simultaneously sample multiple paths. In order to favor the exploration of different transition channels, some walkers can be used as ``repellers'' to push the paths away from each other. Similarly, other walkers can be used as ``attractors'' to known landmarks. The rest of the walkers can perform regular free-energy calculations along the paths. 
+MultiPMD is path-based enhanced sampling technique in which multiple walkers are used to simultaneously sample multiple paths. In order to favor the exploration of different transition channels, some walkers can be used as _repellers_ to push the paths away from each other. Similarly, other walkers can be used as _attractors_ to known landmarks. The rest of the walkers can perform regular free-energy calculations along the paths. Once the paths have been located, we can calculate a PathMap, i.e. a 2D free-energy surface projected along the weighted progress along all of the paths and the path index. The PathMap provides an interpretable view of the merging and forking of the paths, as well as of the free-energy valleys and barriers. 
 
 1. MultiPMD applied to sample two C7eq-to-C7ax paths in alanine dipeptide
 2. PMD with an attractor applied to sample an intermediate path between the two C7eq-to-C7ax paths in alanine dipeptide found in 1.
